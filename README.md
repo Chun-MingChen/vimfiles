@@ -1,15 +1,15 @@
 # vimfiles
-vim dot file by ChunMing
+> Chunming's vim dot file.
 
-## How to use?
+## How to use
 
-Clone the repository into home directory as ~/.vim and install the plugins. As following
+Clone the repository into home directory as ```~/.vim``` and install the plugins. As following
 
-```
-cd ~/.vim
-git clone https://github.com/Chun-MingChen/vimfiles.git
-ln -s ~/.vim/vimfiles/vimrc ~/.vimrc
-vim +PluginInstall +qall
+```sh
+$ cd ~/.vim
+$ git clone https://github.com/Chun-MingChen/vimfiles.git
+$ ln -s ~/.vim/vimfiles/vimrc ~/.vimrc
+$ vim +PluginInstall +qall
 ```
 
 ## Colors
@@ -17,5 +17,5 @@ vim +PluginInstall +qall
 #### honukai
 https://github.com/oskarkrawczyk/honukai-iterm-zsh
 
-1. Open Preferences pane on the Profiles tab in iTerm
-2. Switch to the Colors tab and import the honukai.itermcolors (drop-down in the lower right corner)
+1. Open Preferences and switch to the ```Profiles > Colors``` tab
+2. import ```honukai.itermcolors``` in the  ```color presets```   (drop-down in the lower right corner)
