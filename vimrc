@@ -107,6 +107,9 @@ autocmd FileType coffee setlocal sw=2 sts=2 ts=2 et
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" vim-multiple-cursors
+Plugin 'terryma/vim-multiple-cursors'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
