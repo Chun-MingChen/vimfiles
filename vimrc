@@ -82,6 +82,12 @@ Plugin 'posva/vim-vue'
 " Interactive command execution in Vim
 Plugin 'Shougo/vimproc.vim'
 
+" Elm plugin for Vim
+Plugin 'elmcast/elm-vim'
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:elm_syntastic_show_warnings = 1
+
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
